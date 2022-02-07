@@ -13,4 +13,29 @@ body {
     font-size: 100%;
 }
 
+ .page-header{ /*dots for CLASSES and only names for TAGS*/
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start; 
+    justify-content: space-around; 
+    
+}
+    
 
+
+
+.logo-enrico{
+    height: 90px;
+    padding-top: 10px;
+}
+
+.header-menu{
+    display: flex;
+    gap: 111px;
+    padding-top: 15px;
+}
+
+.left-header{
+    flex-direction: column 5px;
+    padding-top: 15px;
+}
